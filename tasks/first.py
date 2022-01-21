@@ -2,7 +2,7 @@ import sys
 
 num_increased = 0
 
-with open('./input1.txt') as input_file:
+with open('../input/input1.txt') as input_file:
     previous = "(N/A - no previous measurement)"
     for line in input_file:
         current = int(line)

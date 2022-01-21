@@ -1,7 +1,7 @@
 zeros_count = [0 for i in range(12)]
 ones_count = [0 for i in range(12)]
 
-with open('./input3.txt') as input_file:
+with open('../input/input3.txt') as input_file:
 
     for line in input_file:
         for i in range(len(line)):

@@ -1,4 +1,7 @@
+# boilerplate for reading text files in Python
 
-with open('./input2.txt') as input_file:
+
+input_file = '' # relative path to input file 
+with open(input_file) as input_file:
     for line in input_file:
 

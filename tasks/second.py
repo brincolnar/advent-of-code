@@ -1,7 +1,7 @@
 horizontal = 0
 depth = 0
 
-with open('./input2.txt') as input_file:
+with open('../input/input2.txt') as input_file:
     for line in input_file:
         direction = line.split()[0]
         amount = int(line.split()[1])
